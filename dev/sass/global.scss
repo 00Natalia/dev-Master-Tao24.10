@@ -1,0 +1,35 @@
+::selection{
+    color: $text-color;
+    background-color: $color-secondary;
+}
+body{
+    background-color: $bg-primary;
+}
+
+a{
+    color: $color-primary;
+    text-decoration: none;
+    &:hover{
+        color: $color-primary;
+        text-decoration: none;
+    }
+}
+
+h1, .h1{
+    font-size: 18px;
+}
+h2, .h2{
+    font-size: 20px;
+}
+h3, .h3{
+    font-size: 22px;
+}
+h4, .h4{
+    font-family: 24px;
+}
+h5, .h4{
+    font-family: 26px;
+}
+h6, .h6{
+    font-family: 28px;
+}
