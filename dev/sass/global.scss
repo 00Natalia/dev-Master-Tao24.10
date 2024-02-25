@@ -33,3 +33,18 @@ h5, .h4{
 h6, .h6{
     font-family: 28px;
 }
+
+ol{
+    li{
+        list-style-type: none;
+        &:not([class])::before{
+            content: "";
+            background-color: $color-secondary;
+            margin-right: 12px;
+            width: 8px;
+            height: 8px;
+            border-radius: 14%;
+            display: inline-block;
+        }
+    }
+}

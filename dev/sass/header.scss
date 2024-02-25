@@ -20,6 +20,7 @@
         display: flex;
         justify-content: space-around;
         margin-top: -80px;
+        font-size: 16px;
        
         &-list{
             display: flex;
@@ -29,7 +30,6 @@
             width: 100%;
             margin: 4px 0 0 0;
             padding: 0;
-            list-style-type: none;
         }
         &-item-link{
             color:#fff;
@@ -40,7 +40,15 @@
     }
 
     .btn{
-        padding: 13px 22px;
+        padding: 14px 27px;
+        width: 171px;
+        height: 50px;
+        background-color: #E58D35;
+        border-radius: 25px;
         color: #fff;
+        font-size: 15px;
+        &:hover{
+            background-color: #90EE90;
+        }
     }
 }
