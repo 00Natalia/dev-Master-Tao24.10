@@ -16,7 +16,10 @@
     }
 
     &__navigation{
-       display: flex;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-top: -80px;
        
         &-list{
             display: flex;
@@ -38,5 +41,6 @@
 
     .btn{
         padding: 13px 22px;
+        color: #fff;
     }
 }
