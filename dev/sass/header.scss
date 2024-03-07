@@ -1,38 +1,42 @@
 .header{
-    padding: 25px 0 39px;
+    display: flex;
+    text-align: center;
+    padding: 25px 390px 39px;
+    width: 1920px;
 
     .container{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        --bs-gutter-x: 0;
     }
 
     &__logo{
         max-width: 172px;
-        padding: 10px;
+        width: 100%;
             img{
-                max-height: 50px;
+                max-height: 48px;
             }
     }
 
     &__navigation{
-        width: 100%;
-        display: flex;
-        justify-content: space-around;
-        margin-top: -80px;
-        font-size: 16px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    align-items: flex-start;
+    flex-wrap: wrap;
        
         &-list{
             display: flex;
-            align-items: center;
             justify-content: space-between;
-            max-width: 602px; 
             width: 100%;
-            margin: 4px 0 0 0;
-            padding: 0;
+            max-width: 602px;
+            margin: 16px 96px 11px 97px;
         }
         &-item-link{
             color:#fff;
+            margin: 0px;
             &:hover{
                 color: $color-primary;
             }

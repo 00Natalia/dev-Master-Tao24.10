@@ -34,7 +34,8 @@ h6, .h6{
     font-family: 28px;
 }
 
-ol{
+ul{
+    list-style-type: none;
     li{
         list-style-type: none;
         &:not([class])::before{

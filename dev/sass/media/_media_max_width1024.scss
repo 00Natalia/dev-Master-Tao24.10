@@ -1,4 +1,56 @@
 @media screen and (max-width: 1024px) {
+
+    h2{
+        font-size: 24px;
+    }
+
+    .container{
+        padding-left: $container-mobaile-padding;
+        padding-right: $container-mobaile-padding;
+    }
+
+    .header{
+        padding: 17px 0 15px;
+
+        .container{
+            padding: 1px;
+            padding-bottom: 3px;
+        }
+
+        &__logo{
+            max-width: 126px;
+        }
+
+        &__navigation{
+            position: fixed;
+            inset: 71px 0 0;
+            flex-direction: column;
+            padding: 15px 40px 60px;
+            background-color: $bg-secondary;
+
+            &__list{
+                flex-direction: column;
+                margin: 22px auto;
+            }
+
+            .btn{
+                width: 100%;
+                max-width: 320px;
+                margin: 0 auto;
+                padding: 22px;
+                justify-content: center;
+            }
+        }
+
+        &__navigation-item{
+            margin-bottom: 11px;
+        }
+
+        &__navigation-item-link{
+            font-size: 24px;
+            line-height: 222%;
+        }
+    }
 }
 
 
