@@ -1,0 +1,14 @@
+<svg width="40.000000" height="40.000000" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip5869_4410">
+			<rect id="cil:hamburger-menu" width="40.000000" height="40.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="cil:hamburger-menu" width="40.000000" height="40.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip5869_4410)">
+		<path id="Vector" d="M6.25 7.5L33.75 7.5L33.75 10L6.25 10L6.25 7.5ZM6.25 18.75L33.75 18.75L33.75 21.25L6.25 21.25L6.25 18.75ZM6.25 30L33.75 30L33.75 32.5L6.25 32.5L6.25 30Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>
