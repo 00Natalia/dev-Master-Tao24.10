@@ -55,11 +55,32 @@
     }
 }
 .btn-burger{
-    background: url(../assets/img/burger-menu.svg) center, no-repeat;
-    padding: 19px;
-    border: 1px solid red;
+    padding: 1.5px 13.5px;
+    border: none;
+    position: relative;
+&::before, 
+&::after{
+    content: "";
+    top: -11px;
+    left: 0;
+    position: absolute;
+    height: 2.5px;
+    width: 27px;
+    background: #fff;
+}
+&::after{
+    top: initial;
+    bottom: -11px;
+    left: 0;
+
+}
     &.open{
-        background: url(../assets/img/Closs-menu.svg) center, no-repeat;
-    background-color: #E58D35;
+        background: transparent;
+        &::after{
+            transform: rotate(450deg) translate(-10px, -10px);
+        }
+        &::before{
+            transform: rotate(-450deg) translate(-6px, 5px);
+        }
     }
 }
