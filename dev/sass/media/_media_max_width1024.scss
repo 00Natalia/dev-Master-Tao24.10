@@ -13,7 +13,7 @@
         padding: 17px 0 15px;
 
         .container{
-            padding: 1px;
+            padding: 0px 17px 14px;
             padding-bottom: 3px;
         }
 
@@ -25,20 +25,21 @@
             position: fixed;
             inset: 71px 0 0;
             flex-direction: column;
-            padding: 15px 40px 60px;
+            padding: 14px 40px 60px;
             background-color: $bg-secondary;
-
-            &__list{
-                flex-direction: column;
+            
+            &__navigation-list{
                 margin: 22px auto;
             }
 
             .btn{
                 width: 100%;
-                max-width: 320px;
+                height: 62px;
+                max-width: 295px;
                 margin: 0 auto;
-                padding: 22px;
+                padding: 0;
                 justify-content: center;
+                border-radius: 90px;
             }
         }
 
@@ -53,4 +54,9 @@
     }
 }
 
+@media screen and (max-width: 1024px){
+    .header__navigation-list{
+    flex-direction: column;
+    }
+}
 
