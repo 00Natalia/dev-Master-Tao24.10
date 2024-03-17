@@ -7,36 +7,38 @@
     .container{
         padding-left: $container-mobaile-padding;
         padding-right: $container-mobaile-padding;
+           /* padding: 0px 17px 14px;
+            padding-bottom: 3px;*/
+
     }
 
     .header{
         padding: 17px 0 15px;
-
         .container{
-            padding: 0px 17px 14px;
+            padding-top: 1px;
             padding-bottom: 3px;
         }
-
         &__logo{
             max-width: 126px;
         }
 
         &__navigation{
             position: fixed;
-            inset: 71px 0 0;
+            inset: 90px 0 0;
             flex-direction: column;
-            padding: 14px 40px 60px;
+            padding: 15px 40px 60px;
             background-color: $bg-secondary;
             
             &__navigation-list{
-                margin: 22px auto;
-            }
+             flex-direction: column;
+             margin-bottom: 48px;
 
+            }
             .btn{
                 width: 100%;
-                height: 62px;
-                max-width: 295px;
-                margin: 0 auto;
+                height: 68px;
+                max-width: 293px;
+                margin: 25px auto;
                 padding: 0;
                 justify-content: center;
                 border-radius: 90px;

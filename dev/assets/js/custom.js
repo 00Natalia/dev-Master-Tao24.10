@@ -1,3 +1,19 @@
+$(document).ready(function(){
+    $('#banner').slick();
+    arrovs: false;
+    dots: false;
+    fade: true;
+    appendArrows: $('.banner-arrows');
+        responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                arrows: false,
+              }
+            },
+          ]
+    });
+
 
     const burger = document.querySelector('.btn-burger');
     const navigation = document.querySelector('.header__navigation');
